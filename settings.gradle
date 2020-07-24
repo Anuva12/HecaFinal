@@ -1,2 +1,2 @@
-rootProject.name='Playing'
 include ':app'
+rootProject.name = "ManageAccounts10d"
