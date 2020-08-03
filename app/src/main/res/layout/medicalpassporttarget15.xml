@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="16dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Header15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/fira_sans_bold"
+                    android:text="Medical Passport"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/bettersupportmetv15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/fira_sans_semibold"
+                    android:gravity="center"
+                    android:text="Information so you can better support me"
+                    android:textSize="24sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/CommunicationButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/fira_sans_medium"
+                        android:text="Communication"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/MedicalHistoryButton15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/fira_sans_medium"
+                        android:text="Medical History"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/MedicationsButton15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/fira_sans_medium"
+                        android:text="Medications"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/AllergiesButton15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/fira_sans_medium"
+                        android:text="Allergies"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/CopingPainButton15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/fira_sans_medium"
+                        android:text="Coping and Pain"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/MobilityButton15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/fira_sans_medium"
+                        android:text="Mobility"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/HowYouCanHelpButton15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/fira_sans_medium"
+                        android:text="How You Can Help"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/SensitivityButton15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/fira_sans_medium"
+                        android:text="Sensitivity"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/LikesButton15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/fira_sans_medium"
+                        android:text="Likes"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/DislikesButton15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/fira_sans_medium"
+                        android:text="Dislikes"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
