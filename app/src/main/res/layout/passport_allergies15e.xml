@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_margin="0dp"
         android:orientation="vertical">
 
         <ScrollView
@@ -18,16 +19,27 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="32"
+                android:layout_margin="0dp"
                 android:gravity="left"
                 android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/pageheader_15e"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:fontFamily="@font/fira_sans_bold"
+                    android:gravity="center"
+                    android:text="Allergies"
+                    android:textSize="30sp" />
 
                 <TextView
                     android:id="@+id/food.display15e"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
                     android:layout_marginStart="32dp"
-                    android:fontFamily="@font/fira_sans_medium"
+                    android:fontFamily="@font/fira_sans_semibold"
                     android:text="Food"
                     android:textSize="24sp" />
 
@@ -35,7 +47,7 @@
                     android:id="@+id/food.input15e"
                     android:layout_width="266dp"
                     android:layout_height="48dp"
-                    android:layout_marginTop="16dp"
+                    android:layout_margin="16dp"
                     android:ems="10"
                     android:fontFamily="@font/fira_sans"
                     android:inputType="textPersonName"
@@ -45,10 +57,10 @@
                     android:id="@+id/medicine.display15e"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
                     android:layout_marginStart="32dp"
-                    android:layout_marginLeft="32dp"
-                    android:layout_marginTop="48dp"
-                    android:fontFamily="@font/fira_sans_medium"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="@font/fira_sans_semibold"
                     android:text="Medicine"
                     android:textSize="24sp" />
 
@@ -56,6 +68,7 @@
                     android:id="@+id/medicine.input15e"
                     android:layout_width="263dp"
                     android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
                     android:layout_marginTop="16dp"
                     android:ems="10"
                     android:fontFamily="@font/fira_sans"
@@ -67,10 +80,9 @@
                     android:id="@+id/natural.display15e"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
                     android:layout_marginStart="32dp"
-                    android:layout_marginLeft="32dp"
-                    android:layout_marginTop="48dp"
-                    android:fontFamily="@font/fira_sans_medium"
+                    android:fontFamily="@font/fira_sans_semibold"
                     android:text="Natural Phenomenon"
                     android:textSize="24sp" />
 
@@ -78,6 +90,7 @@
                     android:id="@+id/natural.input15e"
                     android:layout_width="273dp"
                     android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
                     android:layout_marginTop="16dp"
                     android:ems="10"
                     android:fontFamily="@font/fira_sans"
@@ -88,10 +101,10 @@
                     android:id="@+id/other.display15e"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
                     android:layout_marginStart="32dp"
                     android:layout_marginLeft="32dp"
-                    android:layout_marginTop="48dp"
-                    android:fontFamily="@font/fira_sans_medium"
+                    android:fontFamily="@font/fira_sans_semibold"
                     android:text="Other"
                     android:textSize="24sp" />
 
@@ -99,11 +112,31 @@
                     android:id="@+id/other.input15e"
                     android:layout_width="273dp"
                     android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
                     android:layout_marginTop="16dp"
                     android:ems="10"
                     android:fontFamily="@font/fira_sans"
                     android:inputType="textPersonName"
                     android:text="List allergies. Ex. Sunscreen" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_margin="0dp"
+                    android:gravity="right"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/button2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_margin="16dp"
+                        android:gravity="center"
+                        android:text="Update"
+                        android:textSize="18sp" />
+                </LinearLayout>
 
             </LinearLayout>
         </ScrollView>
