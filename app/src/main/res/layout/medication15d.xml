@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="-245dp">
+
+        <LinearLayout
+            android:id="@+id/Scroll15d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/header15d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                android:fontFamily="@font/fira_sans_bold"
+                android:gravity="center|top"
+                android:marqueeRepeatLimit="16dp"
+                android:text="@string/medications"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/currentMedsHeading.display15d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20sp"
+                android:layout_marginLeft="16sp"
+                android:layout_marginTop="16sp"
+                android:layout_marginRight="16sp"
+                android:layout_marginBottom="16sp"
+                android:fontFamily="@font/fira_sans_semibold"
+                android:text="@string/current_medication"
+                android:textSize="24sp"
+                tools:text="Current Medications:" />
+
+            <EditText
+                android:id="@+id/insertCurrentMeds.display15d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16sp"
+                android:layout_marginTop="16sp"
+                android:layout_marginRight="16sp"
+                android:layout_marginBottom="16sp"
+                android:autofillHints=""
+                android:ems="10"
+                android:fontFamily="@font/fira_sans"
+                android:gravity="start|top"
+                android:hint="@string/input_current_medication_here"
+                android:inputType="textMultiLine" />
+
+            <TextView
+                android:id="@+id/medicinalpreferenceheading,display"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16sp"
+                android:layout_marginTop="16sp"
+                android:layout_marginRight="16sp"
+                android:layout_marginBottom="16sp"
+                android:fontFamily="@font/fira_sans_semibold"
+                android:text="@string/i_prefer_to_take_medicine"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/insertInformationHere.display15b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16sp"
+                android:layout_marginTop="16sp"
+                android:layout_marginRight="16sp"
+                android:layout_marginBottom="16sp"
+                android:autofillHints=""
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="@string/insert_information_here"
+                android:inputType="textMultiLine" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
